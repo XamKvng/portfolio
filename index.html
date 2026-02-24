@@ -4,12 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Malik Ayomide | Frontend Developer</title>
+  <title>PINKPRIDE | Hair, Beauty & Cosmetics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Pacifico&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Sogbaike Malik Ayomide</h1>
     <p>Frontend Developer | HTML • CSS • JavaScript • React</p>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="hero__tag">Hair • Beauty • Cosmetics</p>
+      <h1>PINKPRIDE</h1>
+      <p class="hero__subtitle">
+        Your trusted beauty store for stylish wigs, premium braiding extensions,
+        luxury bonestraight hair, perfumes, and quality makeup.
+      </p>
+      <a class="cta" href="#contact-box">Place an Order on WhatsApp</a>
+    </div>
   </header>
 
   <section>
@@ -20,6 +37,8 @@
       functional products.
     </p>
   </section>
+  <main>
+    <section class="products-section" id="products-root" aria-label="Product categories"></section>
 
   <section>
     <h2>Projects</h2>
@@ -34,9 +53,36 @@
     <p>Email: Sogbaikemalik1@gmail.com</p>
     <p>GitHub: https://github.com/XamKvng</p>
   </section>
+    <section class="contact" id="contact-box">
+      <h2>Need Something Else?</h2>
+      <p>
+        Contact us for any product you need and we will respond quickly.
+      </p>
+      <a
+        class="whatsapp-box"
+        href="https://wa.me/2348023123028"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with PINKPRIDE on WhatsApp"
+      >
+        <span class="whatsapp-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img" focusable="false">
+            <path
+              fill="currentColor"
+              d="M16.03 3.2c-7.1 0-12.86 5.76-12.86 12.86 0 2.27.6 4.49 1.74 6.45L3.1 28.8l6.46-1.69a12.8 12.8 0 0 0 6.46 1.75h.01c7.1 0 12.86-5.76 12.86-12.86 0-3.44-1.34-6.67-3.78-9.1a12.77 12.77 0 0 0-9.08-3.7Zm0 23.56h-.01a10.7 10.7 0 0 1-5.44-1.48l-.39-.23-3.84 1.01 1.02-3.74-.25-.4a10.7 10.7 0 0 1 1.64-13.46 10.63 10.63 0 0 1 7.27-2.87c2.86 0 5.55 1.11 7.57 3.13a10.64 10.64 0 0 1 3.14 7.58c0 5.9-4.8 10.7-10.7 10.7Zm5.87-8.03c-.32-.16-1.9-.94-2.2-1.04-.3-.11-.52-.16-.74.16-.22.31-.85 1.04-1.04 1.25-.2.22-.38.24-.7.08-.33-.16-1.37-.5-2.61-1.58-.97-.86-1.63-1.92-1.82-2.24-.2-.33-.02-.5.14-.66.14-.14.32-.38.48-.57.16-.19.22-.33.33-.55.1-.22.05-.41-.03-.57-.08-.16-.74-1.77-1.01-2.43-.27-.64-.54-.55-.74-.56l-.63-.01c-.22 0-.57.08-.88.41-.3.33-1.16 1.13-1.16 2.76 0 1.63 1.19 3.2 1.35 3.42.16.22 2.32 3.54 5.63 4.96.79.34 1.41.54 1.89.69.8.25 1.52.22 2.1.13.64-.1 1.9-.78 2.17-1.54.27-.76.27-1.41.19-1.54-.08-.13-.3-.22-.63-.38Z"
+            />
+          </svg>
+        </span>
+        <span class="whatsapp-text">08023123028</span>
+      </a>
+    </section>
+  </main>
 
   <footer>
     <p>© 2025 Malik Ayomide</p>
+    <p>© 2026 PINKPRIDE. Beauty starts with confidence.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
